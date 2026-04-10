@@ -1,0 +1,17 @@
+{
+  "name": "MakerStats CYD",
+  "version": "2.0.0-lvgl",
+  "home_assistant_domain": "",
+  "new_install_prompt_erase": true,
+  "builds": [
+    {
+      "chipFamily": "ESP32",
+      "parts": [
+        {
+          "path": "bin/makerstats-cyd-firmware.bin",
+          "offset": 0
+        }
+      ]
+    }
+  ]
+}
